@@ -1,0 +1,23 @@
+{
+  "name": "github-user-map-hyperx",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "build": "browserify main.js -o bundle.js",
+    "start": "watchify main.js -o bundle.js",
+    "test": "standard"
+  },
+  "author": "Nate Goldman <nate@ngoldman.me> (http://ngoldman.me/)",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "esri-leaflet": "^1.0.3",
+    "esri-leaflet-geocoder": "^1.0.2",
+    "hyperx": "^1.4.1",
+    "leaflet": "^0.7.7",
+    "main-loop": "^3.2.0",
+    "standard": "^6.0.7",
+    "virtual-dom": "^2.1.1",
+    "watchify": "^3.7.0"
+  }
+}

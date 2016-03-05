@@ -1,0 +1,25 @@
+{
+  "name": "github-user-map-hyperx",
+  "main": "app.js",
+  "private": true,
+  "author": "Nate Goldman <nate@ngoldman.me> (http://ngoldman.me/)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.6.5",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "esri-leaflet-geocoder": "^1.0.2",
+    "install": "^0.5.4",
+    "leaflet": "^0.7.7",
+    "npm": "^3.8.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "standard-react": "^1.1.0",
+    "webpack": "^1.12.14"
+  },
+  "scripts": {
+    "test": "standard-react",
+    "build": "webpack --config webpack.config.js --progress --profile --colors"
+  }
+}
