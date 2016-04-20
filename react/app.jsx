@@ -8,6 +8,8 @@ import ReactDOM from 'react-dom'
 const markers = new L.FeatureGroup()
 let map = null
 
+L.Icon.Default.imagePath = 'https://cdn.jsdelivr.net/leaflet/1.0.0-rc.1/images/'
+
 class App extends Component {
   constructor (props) {
     super(props)
