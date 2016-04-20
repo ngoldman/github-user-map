@@ -4,7 +4,7 @@ A simple app that looks up a github user and shows their approximate location on
 
 Adapted from [ReactJS: GitHub User Cards](http://codepen.io/simonswiss/pen/LpBWax).
 
-## [React](react)
+## [react](react)
 
 Made during a [MaptimePDX](http://maptime.io/portland/) meetup led by [jgravois](https://github.com/jgravois).
 
