@@ -4,10 +4,18 @@ A simple app that looks up a github user and shows their approximate location on
 
 Adapted from [ReactJS: GitHub User Cards](http://codepen.io/simonswiss/pen/LpBWax).
 
-## [react](react)
+I ended up making two versions:
+
+### [React](react)
 
 Made during a [MaptimePDX](http://maptime.io/portland/) meetup led by [jgravois](https://github.com/jgravois).
 
-## [hyperx](hyperx)
+### [hyperx](hyperx)
 
-Made to compare implementation with react implementation. Way less tooling headaches.
+Made to compare a [hyperx](https://github.com/substack/hyperx)/[main-loop](https://github.com/Raynos/main-loop) implementation with react. Way less tooling headaches.
+
+See also: [yo-yo](https://github.com/maxogden/yo-yo).
+
+## License
+
+[CC0-1.0](http://spdx.org/licenses/CC0-1.0)
